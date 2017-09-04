@@ -1,11 +1,11 @@
 [TOC]
 
-#node-express-ejs-webpack
+# node-express-ejs-webpack
 
-##简介
+## 简介
     学习Webpack练手之作
 
-##目录结构
+## 目录结构
     Project
       |-dist                                             # 存放Webpack打包生成文件的目录
           |-css
@@ -32,11 +32,11 @@
               |-access.log                               # 访问日志
               |-error.log                                # 错误日志
 
-##所用框架或工具
+## 所用框架或工具
     Server: Express + EJS + Webpack + PM2
     Client: jQuery + [Vue + ] Core.css
 
-##运行##
+## 运行
     1、Clone项目
         git clone https://github.com/lzy-life/node-express-ejs-webpack
     2、安装项目依赖
@@ -59,7 +59,7 @@
         // 使用PM2启动项目，并传递参数NODE_ENV=prd，读取env.js中的prd配置
         npm run prd
 
-##开发##
+## 开发
     1、Client
         1.1、启动自动打包和开发两个命令
             npm run autobuild
@@ -97,7 +97,7 @@
                 在访问该路由的时候添加参数 debug=true 可查看该路由所加载的数据
                     localhost:3000/test/?debug=true
 
-##问题##
+## 问题
     1、开发时需执行两条命令才能实现即时打包且有路由配置
         1.1、webpack-dev-server可即时打包但无路由功能，且打包生成的内容在内存中不是写入文件
             未尝试强制webpack-dev-server写入文件(https://github.com/gajus/write-file-webpack-plugin)
