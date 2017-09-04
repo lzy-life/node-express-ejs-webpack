@@ -8,7 +8,6 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 node_modules
-build
 test
 vendor/images/screenshots/
 
@@ -16,6 +15,9 @@ vendor/images/screenshots/
 !/server/logs
 /server/logs/*
 !/server/logs/.gitkeep
+
+# Build Dir
+/dist/*
 
 # Windows Installer files
 *.cab
