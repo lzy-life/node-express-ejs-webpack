@@ -33,8 +33,9 @@
               |-error.log                                # 错误日志
 
 ## 所用框架或工具
-    Server: Express + EJS + Webpack + PM2
+    Server: Node + Express + EJS
     Client: jQuery + [Vue + ] Core.css
+    Tools: Webpack + PM2
 
 ## 运行
     1、Clone项目
